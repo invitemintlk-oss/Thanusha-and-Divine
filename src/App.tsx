@@ -13,7 +13,7 @@ import {
 } from "./invitation";
 
 const backgroundMusic = "/Nim Him Sewwa  Romantic Live Violin & Piano Cover  Shahen Thilakaratne.mp3";
-const googleScriptUrl = import.meta.env.VITE_GOOGLE_SCRIPT_URL || "https://script.google.com/macros/s/AKfycbwcajHelaqARkvE1KU8wHoPGpaXiI5zFqBHJWz694WKc3B_LJs68Wr8HkgCMBOufIQ/exec";
+const googleScriptUrl = "https://script.google.com/macros/s/AKfycby3gfeYSZyCnZXPzVVMI7O-o_wjK7RvcK3rrGZEM9pMEDIESIhlc9rO8sJnDCc1b7-W/exec";
 
 const publicImagePath = (fileName: string) => `/images/${fileName.replaceAll(" ", "%20")}`;
 

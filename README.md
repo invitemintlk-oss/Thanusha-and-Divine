@@ -25,5 +25,5 @@ npm install
 npm run dev
 ```
 
-RSVPs are sent to the Google Apps Script in `code.gs`. Set `VITE_GOOGLE_SCRIPT_URL`
-(in `.env` locally and in the Vercel project settings) to that script's web-app URL.
+RSVPs and wishes are sent to the Google Apps Script in `code.gs`; its web-app URL is
+hardcoded as `googleScriptUrl` in `src/App.tsx`.

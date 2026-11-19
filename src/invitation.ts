@@ -87,7 +87,7 @@ export function eventsFor(selection: EventSelection): WeddingEvent[] {
 export function occasionTitle(selection: EventSelection): string {
   if (selection === "church") return "Holy Matrimony";
   if (selection === "homecoming") return "Homecoming Celebration";
-  return "Wedding Celebration";
+  return "Homecoming Celebration";
 }
 
 /** Phrase that completes "...as we celebrate the ___ of". */

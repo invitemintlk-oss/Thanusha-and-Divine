@@ -710,11 +710,25 @@ export default function WeddingInvitation() {
                   </p>
                   
                   {/* Ornament */}
-                  <div className="mt-4 mb-8">
+                  <div className="mt-4 mb-6">
                     <svg width="40" height="15" viewBox="0 0 120 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                        <path d="M60 4L63 10L69 12L63 14L60 20L57 14L51 12L57 10L60 4Z" fill="#D4AF37" fillOpacity="0.6"/>
                     </svg>
                   </div>
+
+                  {/* Bible Verse */}
+                  <figure className="w-full max-w-sm mx-auto mb-10 px-2">
+                    <blockquote className="font-playball text-2xl md:text-3xl text-[#D4AF37] leading-snug drop-shadow-sm">
+                      &ldquo;How good and pleasant it is when God&rsquo;s people live together in unity!&rdquo;
+                    </blockquote>
+                    <div className="flex items-center justify-center gap-3 mt-4">
+                      <div className="h-px w-8 bg-[#D4AF37]/50" />
+                      <figcaption className="font-cinzel text-[10px] md:text-xs tracking-[0.3em] uppercase font-bold text-[#FFFFFF]">
+                        Psalm 133:1
+                      </figcaption>
+                      <div className="h-px w-8 bg-[#D4AF37]/50" />
+                    </div>
+                  </figure>
 
                   <p className="font-cinzel text-[12px] md:text-[13px] tracking-[0.25em] uppercase font-bold text-[#FFFFFF] mb-2">
                     The Son Of
